@@ -1,0 +1,2972 @@
+{
+  "generatedAt": "2026-08-18T19:10:30.126Z",
+  "lookbackDays": 90,
+  "topics": [
+    "Tailscale",
+    "VPNs",
+    "zero-trust networking",
+    "remote access"
+  ],
+  "competitors": [
+    "zerotier",
+    "netbird",
+    "twingate",
+    "cloudflare access",
+    "teleport",
+    "headscale",
+    "wireguard"
+  ],
+  "sourceStatus": [
+    {
+      "source": "Hacker News",
+      "status": "ok",
+      "collected": 164
+    },
+    {
+      "source": "Reddit",
+      "status": "ok",
+      "collected": 8
+    },
+    {
+      "source": "Stack Overflow",
+      "status": "ok",
+      "collected": 6
+    },
+    {
+      "source": "Search suggestions",
+      "status": "ok",
+      "collected": 87
+    }
+  ],
+  "total": 129,
+  "summary": {
+    "bySource": [
+      {
+        "name": "Search suggestions",
+        "count": 86,
+        "share": 67
+      },
+      {
+        "name": "Hacker News",
+        "count": 33,
+        "share": 26
+      },
+      {
+        "name": "Reddit",
+        "count": 8,
+        "share": 6
+      },
+      {
+        "name": "Stack Overflow",
+        "count": 2,
+        "share": 2
+      }
+    ],
+    "byIntent": [
+      {
+        "name": "Adopt",
+        "count": 48,
+        "share": 37
+      },
+      {
+        "name": "Compare",
+        "count": 33,
+        "share": 26
+      },
+      {
+        "name": "Discover",
+        "count": 28,
+        "share": 22
+      },
+      {
+        "name": "Troubleshoot",
+        "count": 16,
+        "share": 12
+      },
+      {
+        "name": "Evaluate",
+        "count": 4,
+        "share": 3
+      }
+    ],
+    "clusters": [
+      {
+        "name": "Tailscale with Kubernetes",
+        "count": 10,
+        "relevance": 80,
+        "depth": 50,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 79,
+        "topQuestions": [
+          "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgc3VibmV0IHJvdXRlcg",
+          "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgb3BlcmF0b3I",
+          "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgZ2F0ZXdheSBhcGk",
+          "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgb3BlcmF0b3IgZ2l0aHVi",
+          "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgaW5ncmVzcw"
+        ]
+      },
+      {
+        "name": "Tailscale SSH",
+        "count": 14,
+        "relevance": 81,
+        "depth": 48,
+        "freshness": 73,
+        "business": 53,
+        "opportunity": 78,
+        "topQuestions": [
+          "reddit-1um87ud",
+          "stackoverflow-79995309",
+          "hn-48920816",
+          "suggest-dGFpbHNjYWxlIHNzaCB3aW5kb3dz",
+          "suggest-dGFpbHNjYWxlIHNzaCBhbmRyb2lk"
+        ]
+      },
+      {
+        "name": "Remote home lab access",
+        "count": 9,
+        "relevance": 77,
+        "depth": 44,
+        "freshness": 68,
+        "business": 64,
+        "opportunity": 75,
+        "topQuestions": [
+          "hn-49043030",
+          "hn-49255072",
+          "hn-48981708",
+          "reddit-1tqbq7h",
+          "suggest-dGFpbHNjYWxlIGhvbWUgbGFiIHNldHVw"
+        ]
+      },
+      {
+        "name": "Subnet routing and exit nodes",
+        "count": 2,
+        "relevance": 88,
+        "depth": 47,
+        "freshness": 86,
+        "business": 53,
+        "opportunity": 75,
+        "topQuestions": [
+          "hn-49129337",
+          "hn-49182088"
+        ]
+      },
+      {
+        "name": "Core concepts and use cases",
+        "count": 62,
+        "relevance": 78,
+        "depth": 35,
+        "freshness": 78,
+        "business": 45,
+        "opportunity": 73,
+        "topQuestions": [
+          "hn-49310875",
+          "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHJlbW90ZSBhY2Nlc3M",
+          "hn-49304349",
+          "hn-49269302",
+          "hn-49230970"
+        ]
+      },
+      {
+        "name": "Alternatives and self-hosting",
+        "count": 7,
+        "relevance": 92,
+        "depth": 38,
+        "freshness": 65,
+        "business": 44,
+        "opportunity": 73,
+        "topQuestions": [
+          "hn-49049904",
+          "suggest-dGFpbHNjYWxlIHZzIG5ldGJpcmQ",
+          "suggest-dGFpbHNjYWxlIHZzIHplcm90aWVy",
+          "suggest-dGFpbHNjYWxlIHZzIHR3aW5nYXRl",
+          "suggest-dGFpbHNjYWxlIHZzIGhlYWRzY2FsZQ"
+        ]
+      },
+      {
+        "name": "Connectivity and performance",
+        "count": 2,
+        "relevance": 88,
+        "depth": 44,
+        "freshness": 78,
+        "business": 48,
+        "opportunity": 72,
+        "topQuestions": [
+          "hn-49349001",
+          "hn-48737041"
+        ]
+      },
+      {
+        "name": "Services without port forwarding",
+        "count": 13,
+        "relevance": 68,
+        "depth": 39,
+        "freshness": 71,
+        "business": 61,
+        "opportunity": 72,
+        "topQuestions": [
+          "reddit-1uz4aai",
+          "reddit-1v81gud",
+          "reddit-1tvtt3j",
+          "reddit-1u97w9a",
+          "suggest-bGludXggcmVtb3RlIGFjY2VzcyB3aXRob3V0IHBvcnQgZm9yd2FyZGluZw"
+        ]
+      },
+      {
+        "name": "Enterprise access controls",
+        "count": 1,
+        "relevance": 80,
+        "depth": 45,
+        "freshness": 99,
+        "business": 41,
+        "opportunity": 70,
+        "topQuestions": [
+          "hn-49333540"
+        ]
+      },
+      {
+        "name": "Tailscale vs traditional VPNs",
+        "count": 9,
+        "relevance": 62,
+        "depth": 32,
+        "freshness": 78,
+        "business": 42,
+        "opportunity": 64,
+        "topQuestions": [
+          "suggest-dGFpbHNjYWxlIHZzIHZwbg",
+          "suggest-bWVzaCB2cG4gdnMgd2lyZWd1YXJk",
+          "suggest-bWVzaCB2cG4gdnMgdHJhZGl0aW9uYWwgdnBu",
+          "suggest-Y2hlY2twb2ludCB2cG4gbWVzaCB2cyBzdGFy",
+          "suggest-bWVzaCB2cG4gdnMgaHViIGFuZCBzcG9rZQ"
+        ]
+      }
+    ]
+  },
+  "questions": [
+    {
+      "id": "hn-49310875",
+      "source": "Hacker News",
+      "title": "RustDesk now supports true unattended remote access on Wayland",
+      "excerpt": "It's funny you say that, as one of my weekend projects today is setting up https:&#x2F;&#x2F;www.authelia.com&#x2F; to achieve the same. I probably won't allow everything through it (eg: postgres, clickhouse etc can stay on tailscale), but I've been stumbling into use cases wher…",
+      "url": "https://rustdesk.com/blog/unattended-remote-access-wayland/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49310875",
+      "author": "mnahkies",
+      "createdAt": "2026-08-15T14:28:18Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 96,
+        "depth": 49,
+        "freshness": 97,
+        "business": 74,
+        "opportunity": 81
+      }
+    },
+    {
+      "id": "hn-49043030",
+      "source": "Hacker News",
+      "title": "The Corporate Creep of Plex: Why it may be time to move to Jellyfin",
+      "excerpt": "Last I looked (perhaps some have changed?) - plex has some fancy remote access thing so it can figure out your home network IP without DNS. You need to use VPN&#x2F;Tailscale or self host something that advertises your IP if you want remote access with Jellyfin. This is lame if…",
+      "url": "https://reprodev.com/the-corporate-creep-of-plex-why-it-may-be-time-to-move-to-jellyfin-and-the-open-source-reality/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49043030",
+      "author": "QuiEgo",
+      "createdAt": "2026-07-24T23:54:03Z",
+      "engagement": 0,
+      "matchedQuery": "remote access home lab",
+      "intent": "Adopt",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 96,
+        "depth": 50,
+        "freshness": 78,
+        "business": 84,
+        "opportunity": 80
+      }
+    },
+    {
+      "id": "reddit-1um87ud",
+      "source": "Reddit",
+      "title": "Tailscale — all in after migrating 200 users from Cisco ASA SSL VPN",
+      "excerpt": "How should a 200-user deployment handle subnet-router high availability, per-user ACLs, Entra provisioning, and Tailscale SSH?",
+      "url": "https://www.reddit.com/r/Tailscale/comments/1um87ud/tailscale_all_in/",
+      "discussionUrl": "https://www.reddit.com/r/Tailscale/comments/1um87ud/tailscale_all_in/",
+      "author": null,
+      "community": "r/Tailscale",
+      "createdAt": "2026-07-03T00:00:00.000Z",
+      "engagement": 81,
+      "matchedQuery": "tailscale enterprise",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 83,
+        "freshness": 58,
+        "business": 74,
+        "opportunity": 75
+      }
+    },
+    {
+      "id": "stackoverflow-79995309",
+      "source": "Stack Overflow",
+      "title": "Can a remote Ollama agent execute commands on a Windows machine over Tailscale SSH without an agent installed locally?",
+      "excerpt": "Can a remote Ollama agent execute commands on a Windows machine over Tailscale SSH without an agent installed locally?",
+      "url": "https://stackoverflow.com/questions/79995309/can-a-remote-ollama-agent-execute-commands-on-a-windows-machine-over-tailscale-s",
+      "discussionUrl": "https://stackoverflow.com/questions/79995309/can-a-remote-ollama-agent-execute-commands-on-a-windows-machine-over-tailscale-s",
+      "author": "roymustang",
+      "createdAt": "2026-08-15T08:44:14.000Z",
+      "engagement": -0.5900000000000001,
+      "matchedQuery": "tailscale",
+      "tags": [
+        "ssh",
+        "ollama",
+        "tailscale"
+      ],
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 59,
+        "freshness": 97,
+        "business": 64,
+        "opportunity": 75
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHJlbW90ZSBhY2Nlc3M",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for remote access",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20remote%20access",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 96,
+        "depth": 34,
+        "freshness": 78,
+        "business": 74,
+        "opportunity": 75
+      }
+    },
+    {
+      "id": "hn-49304349",
+      "source": "Hacker News",
+      "title": "Codex in ChatGPT desktop app for Linux is now in preview",
+      "excerpt": "Are you using something like Tailscale, or are you running an open SSH server?",
+      "url": "https://community.openai.com/t/codex-in-chatgpt-desktop-app-for-linux-is-now-in-preview/1390027",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49304349",
+      "author": "junto",
+      "createdAt": "2026-08-14T20:44:43Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 59,
+        "freshness": 96,
+        "business": 54,
+        "opportunity": 73
+      }
+    },
+    {
+      "id": "hn-49255072",
+      "source": "Hacker News",
+      "title": "As AI eats the web, the internet’s collective memory is disappearing",
+      "excerpt": "I'm not sure. I run a homelab tailscale&#x2F;k3s setup with gitops, dozens of services, VMs, backups, etc, all vibed by claude, and works just fine. Didn't write a single line of code for this. I don't know kubernetes and never will.",
+      "url": "https://thewalrus.ca/google-search-is-dying/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49255072",
+      "author": "suslik",
+      "createdAt": "2026-08-11T08:47:21Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 80,
+        "depth": 50,
+        "freshness": 93,
+        "business": 64,
+        "opportunity": 73
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgc3VibmV0IHJvdXRlcg",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes subnet router",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20subnet%20router",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 67,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 73
+      }
+    },
+    {
+      "id": "hn-49349001",
+      "source": "Hacker News",
+      "title": "How do I permanently disable random Google Photos popup to backup photos? (2024)",
+      "excerpt": "Immich + tailscale is great. Setup a little DNS server and now your computer can go to your photos.&lt;lastname&gt;.It's great. Setting up backups: Ja. Just setup rsync between a couple computers, good to go.",
+      "url": "https://support.google.com/photos/thread/256212140/how-do-i-permanently-disable-google-photos-pop-up-prompt-to-backup-my-photos-i?hl=en",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49349001",
+      "author": "kooi",
+      "createdAt": "2026-08-18T17:16:41Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Adopt",
+      "cluster": "Connectivity and performance",
+      "scores": {
+        "relevance": 80,
+        "depth": 52,
+        "freshness": 100,
+        "business": 54,
+        "opportunity": 72
+      }
+    },
+    {
+      "id": "reddit-1uz4aai",
+      "source": "Reddit",
+      "title": "Tailscale sidecar on a Plex container vs. bare-metal Tailscale in a separate LXC",
+      "excerpt": "What is the cleaner architecture for reaching Plex behind CGNAT: a container sidecar, an LXC subnet router, or a WireGuard tunnel through a VPS?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1uz4aai/tailscale_sidecar_on_plex_container_vs_separate/",
+      "discussionUrl": "https://www.reddit.com/r/selfhosted/comments/1uz4aai/tailscale_sidecar_on_plex_container_vs_separate/",
+      "author": null,
+      "community": "r/selfhosted",
+      "createdAt": "2026-07-10T00:00:00.000Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale subnet router",
+      "intent": "Compare",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 96,
+        "depth": 74,
+        "freshness": 64,
+        "business": 41,
+        "opportunity": 72
+      }
+    },
+    {
+      "id": "hn-48981708",
+      "source": "Hacker News",
+      "title": "Moonshine: Lets you stream games from your PC to any device running Moonlight",
+      "excerpt": "Steam Link creates an RDP session (I assume their own protocol but for lack of a better term for it) that lets me control my Desktop from my phone. Once I'm remote on the desktop, I can access my home-lab locally instead of via VPN. Before I moved to Tailscale, my self-hosted Wi…",
+      "url": "https://github.com/hgaiser/moonshine",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48981708",
+      "author": "dpoloncsak",
+      "createdAt": "2026-07-20T17:13:39Z",
+      "engagement": 0,
+      "matchedQuery": "remote access home lab",
+      "intent": "Compare",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 80,
+        "depth": 41,
+        "freshness": 74,
+        "business": 81,
+        "opportunity": 71
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgb3BlcmF0b3I",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes operator",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20operator",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 55,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 71
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgZ2F0ZXdheSBhcGk",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes gateway api",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20gateway%20api",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 55,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 71
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgb3BlcmF0b3IgZ2l0aHVi",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes operator github",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20operator%20github",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 56,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 71
+      }
+    },
+    {
+      "id": "hn-49129337",
+      "source": "Hacker News",
+      "title": "Tailscale didn't stop the Hugging Face intrusion",
+      "excerpt": "I use Wireguard for several site-to-site VPNs. It just works. I never have to worry about it, and there are very few configuration settings to mess up (unlike, say, IPsec, which is a nightmare.)",
+      "url": "https://tailscale.com/blog/hugging-face-intrusion",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49129337",
+      "author": "icedchai",
+      "createdAt": "2026-07-31T22:38:10Z",
+      "engagement": 0,
+      "matchedQuery": "mesh vpn",
+      "intent": "Compare",
+      "cluster": "Subnet routing and exit nodes",
+      "scores": {
+        "relevance": 96,
+        "depth": 36,
+        "freshness": 84,
+        "business": 51,
+        "opportunity": 70
+      }
+    },
+    {
+      "id": "hn-49049904",
+      "source": "Hacker News",
+      "title": "Bitchat is now on Radicle",
+      "excerpt": "In theory, this could work. Setup machine with bluetooth receiver. Funnel packets from Bluetooth receiver over a virtual private network (ie, wireguard, tailscale, netbird). Then in another state&#x2F;country&#x2F;continent with server connected to vpn then rebroadcasts those pa…",
+      "url": "https://radicle.network/nodes/rosa.radicle.network/rad%3Az2v9tRJz1oknFAqCSY5W5c76nVvm6",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49049904",
+      "author": "xyst",
+      "createdAt": "2026-07-25T17:55:02Z",
+      "engagement": 0,
+      "matchedQuery": "mesh vpn",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 100,
+        "depth": 32,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 70
+      }
+    },
+    {
+      "id": "hn-49269302",
+      "source": "Hacker News",
+      "title": "OpenChamber: An Agentic Development Environment",
+      "excerpt": "Using it now. It seems like I finally found something that works. Having the same agents accessible on the laptop in a large TUI and quickly viewable from my phone has been useful. Tailscale integration works well too. The mobile notification setup was a little clunky and the in…",
+      "url": "https://openchamber.dev/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49269302",
+      "author": "tmzt",
+      "createdAt": "2026-08-12T08:20:05Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 36,
+        "freshness": 94,
+        "business": 64,
+        "opportunity": 70
+      }
+    },
+    {
+      "id": "hn-49182088",
+      "source": "Hacker News",
+      "title": "Tailscale Subnet Routers, The right way",
+      "excerpt": "Tailscale Subnet Routers, The right way",
+      "url": "https://excloud.dev/docs/guides/tailscale-ipv6-multi-cloud",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49182088",
+      "author": "lomkju",
+      "createdAt": "2026-08-05T12:46:34Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale subnet router",
+      "intent": "Adopt",
+      "cluster": "Subnet routing and exit nodes",
+      "scores": {
+        "relevance": 80,
+        "depth": 57,
+        "freshness": 88,
+        "business": 54,
+        "opportunity": 70
+      }
+    },
+    {
+      "id": "hn-49230970",
+      "source": "Hacker News",
+      "title": "My server is a phone now",
+      "excerpt": "I'm using my unrooted stock s23u with damaged screen as a server but only to me thru tailscale. Termux. Proot ubuntu. Serving OWUI and syncthing. Works fine. Had to remove pw protection so runit starts services at reboot. Therefore encrypted at rest any sensitive data I Ssh in i…",
+      "url": "https://seg6.space/posts/phone-server/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49230970",
+      "author": "peheje",
+      "createdAt": "2026-08-09T12:54:46Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 92,
+        "business": 54,
+        "opportunity": 69
+      }
+    },
+    {
+      "id": "hn-48920816",
+      "source": "Hacker News",
+      "title": "TS-2026-009: Insecure argument handling in Tailscale SSH permitted root access",
+      "excerpt": "&gt; we don't trust Tailscale. Just look at the thousands of unresolved Github issues, many of which are actually quite important&#x2F;useful but have been ignored for months and years. This is a poor measure of quality. I've spent considerable time knee-deep in these issues in…",
+      "url": "https://tailscale.com/security-bulletins",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48920816",
+      "author": "xyzzy_plugh",
+      "createdAt": "2026-07-15T13:49:45Z",
+      "engagement": 0,
+      "matchedQuery": "zero trust networking",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 52,
+        "freshness": 69,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgaW5ncmVzcw",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes ingress",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20ingress",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXM",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 42,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgc2lkZWNhcg",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes sidecar",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20sidecar",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgY2x1c3Rlcg",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes cluster",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20cluster",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGt1YmVybmV0ZXMgZXhpdCBub2Rl",
+      "source": "Search suggestions",
+      "title": "tailscale kubernetes exit node",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20kubernetes%20exit%20node",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNlcnZpY2Uga3ViZXJuZXRlcw",
+      "source": "Search suggestions",
+      "title": "tailscale service kubernetes",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale kubernetes”.",
+      "url": "https://www.google.com/search?q=tailscale%20service%20kubernetes",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Tailscale with Kubernetes",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 68
+      }
+    },
+    {
+      "id": "hn-49333540",
+      "source": "Hacker News",
+      "title": "Reticulum – Decentralized Mesh Network",
+      "excerpt": "Tailscale is a different usecase entirely, as this comment demonstrates: https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=49328580",
+      "url": "https://reticulum.network/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49333540",
+      "author": "knowaveragejoe",
+      "createdAt": "2026-08-17T16:22:05Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Enterprise access controls",
+      "scores": {
+        "relevance": 80,
+        "depth": 45,
+        "freshness": 99,
+        "business": 41,
+        "opportunity": 67
+      }
+    },
+    {
+      "id": "hn-49312609",
+      "source": "Hacker News",
+      "title": "I close SSH port 22 (and what I use instead)",
+      "excerpt": "&gt; I check with nmap periodically. I have a break-glass backup terminal login option via my cloud provider dashboard (secured with MFA) in case Tailscale failed and needed investigation and repair. Cool! Are you able to provide more information on this? My break glass is to te…",
+      "url": "https://www.michelebologna.net/2026/ssh-port-22-fwknop-single-packet-authorization/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49312609",
+      "author": "figmert",
+      "createdAt": "2026-08-15T17:46:30Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 46,
+        "freshness": 97,
+        "business": 41,
+        "opportunity": 67
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIHdpcmVndWFyZA",
+      "source": "Search suggestions",
+      "title": "tailscale vs wireguard",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20wireguard",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 96,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIG5ldGJpcmQ",
+      "source": "Search suggestions",
+      "title": "tailscale vs netbird",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20netbird",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 96,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIHplcm90aWVy",
+      "source": "Search suggestions",
+      "title": "tailscale vs zerotier",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20zerotier",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 96,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIHR3aW5nYXRl",
+      "source": "Search suggestions",
+      "title": "tailscale vs twingate",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20twingate",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 96,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIGhlYWRzY2FsZQ",
+      "source": "Search suggestions",
+      "title": "tailscale vs headscale",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20headscale",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 96,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCB3aW5kb3dz",
+      "source": "Search suggestions",
+      "title": "tailscale ssh windows",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20windows",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBhbmRyb2lk",
+      "source": "Search suggestions",
+      "title": "tailscale ssh android",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20android",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBmcm9tIGlwaG9uZQ",
+      "source": "Search suggestions",
+      "title": "tailscale ssh from iphone",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20from%20iphone",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBjb21tYW5k",
+      "source": "Search suggestions",
+      "title": "tailscale ssh command",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20command",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBwb3J0",
+      "source": "Search suggestions",
+      "title": "tailscale ssh port",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20port",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 42,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 66
+      }
+    },
+    {
+      "id": "hn-49273280",
+      "source": "Hacker News",
+      "title": "Show HN: Tss – Simple Tailscale Host Selector command-line tool",
+      "excerpt": "Show HN: Tss – Simple Tailscale Host Selector command-line tool",
+      "url": "https://github.com/berggren/tss",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49273280",
+      "author": "jbn4711",
+      "createdAt": "2026-08-12T14:50:12Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 39,
+        "freshness": 94,
+        "business": 41,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "hn-49280981",
+      "source": "Hacker News",
+      "title": "We tracked down the 16-year-old WAL-reset SQLite bug",
+      "excerpt": "I meant does the rare SQLite bug tend to manifest in litestream for the same reason it showed up in Tailscale.",
+      "url": "https://tailscale.com/blog/sqlite-wal-reset-bug",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49280981",
+      "author": "gwking",
+      "createdAt": "2026-08-13T01:55:27Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 37,
+        "freshness": 95,
+        "business": 41,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "reddit-1vf9v31",
+      "source": "Reddit",
+      "title": "Do I just have to live connected to Tailscale now?",
+      "excerpt": "Can private apps stay reachable without keeping Tailscale connected all the time, especially when another mobile VPN also needs the device VPN slot?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1vf9v31/do_i_just_have_to_live_connected_to_tailscale_now/",
+      "discussionUrl": "https://www.reddit.com/r/selfhosted/comments/1vf9v31/do_i_just_have_to_live_connected_to_tailscale_now/",
+      "author": null,
+      "community": "r/selfhosted",
+      "createdAt": "2026-08-04T00:00:00.000Z",
+      "engagement": 126,
+      "matchedQuery": "tailscale remote access",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 36,
+        "freshness": 87,
+        "business": 51,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "reddit-1tqbq7h",
+      "source": "Reddit",
+      "title": "Question about remote-access options",
+      "excerpt": "When should a home lab use WireGuard, OpenVPN, Headscale, Tailscale, Cloudflare Tunnel, or a direct LAN remote-desktop tool?",
+      "url": "https://www.reddit.com/r/homelab/comments/1tqbq7h/question_about_remote_access_options/",
+      "discussionUrl": "https://www.reddit.com/r/homelab/comments/1tqbq7h/question_about_remote_access_options/",
+      "author": null,
+      "community": "r/homelab",
+      "createdAt": "2026-05-28T00:00:00.000Z",
+      "engagement": 12,
+      "matchedQuery": "remote access home lab",
+      "intent": "Compare",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 100,
+        "depth": 34,
+        "freshness": 25,
+        "business": 71,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBpb3M",
+      "source": "Search suggestions",
+      "title": "tailscale ssh ios",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20ios",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 42,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBtYWM",
+      "source": "Search suggestions",
+      "title": "tailscale ssh mac",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20mac",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Adopt",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 42,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 65
+      }
+    },
+    {
+      "id": "hn-49346141",
+      "source": "Hacker News",
+      "title": "The Amazon Tax",
+      "excerpt": "Having small mini-pcs in my basement and a couple of Cloudflare tunnels and Tailscale has been awesome. Made me realize that I've gotten used to paying for software that is free because someone else was hosting. But now I host it and it's a way better experience. I'm not crazy a…",
+      "url": "https://seths.blog/2026/08/the-amazon-tax/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49346141",
+      "author": "genghisjahn",
+      "createdAt": "2026-08-18T14:30:02Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 30,
+        "freshness": 100,
+        "business": 41,
+        "opportunity": 64
+      }
+    },
+    {
+      "id": "hn-49279752",
+      "source": "Hacker News",
+      "title": "DeepSeek V4 Pro 0813",
+      "excerpt": "This is definitely beyond my capabilities lol but wow portr is a neat project. Never heard of it before, only the paid services from tailscale&#x2F;cloudflare.",
+      "url": "https://openrouter.ai/deepseek/deepseek-v4-pro-0813",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49279752",
+      "author": "shimman",
+      "createdAt": "2026-08-12T23:01:15Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 95,
+        "business": 41,
+        "opportunity": 64
+      }
+    },
+    {
+      "id": "hn-49223383",
+      "source": "Hacker News",
+      "title": "Show HN: 49IDE – 2D Grid IDE for managing many agents, Git trees, issues",
+      "excerpt": "Beads tables (Steve Yegge's) for issue tracking. Can view git trees, terminals, issue tables, notes, and files all on one screen. Can connect multiple machines via private network (like tailscale) I had this issue where i really did not like the when i had many terminals open at…",
+      "url": "https://github.com/alpbahadur/49Agents",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49223383",
+      "author": "alpbahadur",
+      "createdAt": "2026-08-08T16:37:34Z",
+      "engagement": 12,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 40,
+        "freshness": 91,
+        "business": 41,
+        "opportunity": 64
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGhvbWUgbGFiIHNldHVw",
+      "source": "Search suggestions",
+      "title": "tailscale home lab setup",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale home lab”.",
+      "url": "https://www.google.com/search?q=tailscale%20home%20lab%20setup",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale home lab",
+      "intent": "Adopt",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 80,
+        "depth": 32,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 64
+      }
+    },
+    {
+      "id": "hn-49278270",
+      "source": "Hacker News",
+      "title": "Breaking the WAL",
+      "excerpt": "We wanted to publish this ASAP since people are talking about this bug today. In a follow-up, we will show how our automated causality analysis could have saved Tailscale and SQLite from 6 months of root cause analysis. Stay tuned!",
+      "url": "https://antithesis.com/blog/2026/wal-reset-bug/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49278270",
+      "author": "wwilson",
+      "createdAt": "2026-08-12T20:42:42Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 95,
+        "business": 41,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "reddit-1v81gud",
+      "source": "Reddit",
+      "title": "Port forwarding",
+      "excerpt": "Should I expose a service with one forwarded port, use a reverse proxy, or connect clients through Tailscale? What do I need to do to make port forwarding safe?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1v81gud/port_forwarding/",
+      "discussionUrl": "https://www.reddit.com/r/selfhosted/comments/1v81gud/port_forwarding/",
+      "author": null,
+      "community": "r/selfhosted",
+      "createdAt": "2026-07-27T00:00:00.000Z",
+      "engagement": 16,
+      "matchedQuery": "vpn without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 79,
+        "business": 54,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGluc3RhbGw",
+      "source": "Search suggestions",
+      "title": "tailscale install",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20install",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "tailscale",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHJlbW90ZSBkZXNrdG9w",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for remote desktop",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20remote%20desktop",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 35,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHZwbg",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCB2cyBub3JtYWwgc3No",
+      "source": "Search suggestions",
+      "title": "tailscale ssh vs normal ssh",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20vs%20normal%20ssh",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Compare",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBjb25uZWN0aW9uIHJlZnVzZWQ",
+      "source": "Search suggestions",
+      "title": "tailscale ssh connection refused",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20connection%20refused",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Troubleshoot",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 44,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGhvbWUgbGFi",
+      "source": "Search suggestions",
+      "title": "tailscale home lab",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale home lab”.",
+      "url": "https://www.google.com/search?q=tailscale%20home%20lab",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale home lab",
+      "intent": "Adopt",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHJlbW90ZWx5",
+      "source": "Search suggestions",
+      "title": "tailscale not working remotely",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20remotely",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHdpdGggbm9yZHZwbg",
+      "source": "Search suggestions",
+      "title": "tailscale not working with nordvpn",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20with%20nordvpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 63
+      }
+    },
+    {
+      "id": "hn-49233795",
+      "source": "Hacker News",
+      "title": "Ask HN: What are you working on? (August 2026)",
+      "excerpt": "I'm working on https:&#x2F;&#x2F;wireplug.org : wireplug lets you create mesh VPNs using standard WireGuard. Your wg config files stay almost the same, except you no longer have to specify an `Endpoint` for your peers. Instead, wireplug detects all your possible endpoints (inclu…",
+      "url": "https://news.ycombinator.com/item?id=49233795",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49233795",
+      "author": "alpn",
+      "createdAt": "2026-08-09T18:02:56Z",
+      "engagement": 0,
+      "matchedQuery": "mesh vpn",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 74,
+        "depth": 36,
+        "freshness": 92,
+        "business": 41,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "hn-48737041",
+      "source": "Hacker News",
+      "title": "We Are the Last People Who Know How It Works",
+      "excerpt": "I'm one of the greybeards who has the 2400 BAUD modem negotiation tone sequences emblazened in my neurons. For a while I've been meaning to set up some Wireguard connections among some of my systems. Being as busy as I am with work and family, I've relinquished that to Tailscale…",
+      "url": "https://unix.foo/posts/last-people-who-know-how-it-works/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48737041",
+      "author": "steelframe",
+      "createdAt": "2026-06-30T18:23:30Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Compare",
+      "cluster": "Connectivity and performance",
+      "scores": {
+        "relevance": 96,
+        "depth": 35,
+        "freshness": 56,
+        "business": 41,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "hn-48556663",
+      "source": "Hacker News",
+      "title": "Show HN: Alternative way to do remote codex via NovaScale with builtin Tailscale",
+      "excerpt": "Recently I discovered that Codex CLI ships with an App Server that exposes a WebSocket API. It allows third-party applications to interact with Codex threads, including: - Resuming existing threads - Starting new turns - Handling approval requests - Receiving thread updates - Up…",
+      "url": "https://apps.apple.com/us/app/novascale-built-for-tailscale/id6749938291",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48556663",
+      "author": "mintflow",
+      "createdAt": "2026-06-16T15:20:57Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 80,
+        "depth": 63,
+        "freshness": 43,
+        "business": 51,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "hn-48494048",
+      "source": "Hacker News",
+      "title": "Nextcloud Hub 26 Spring: Built together, designed for the future",
+      "excerpt": "That works okay if you are the only user. I use quite a few Nextcloud features where access via tailscale is either inconvenient or impossible. My whole family uses the calendar on their phones and other devices, which means they would have to either learn about VPNs, or I would…",
+      "url": "https://nextcloud.com/blog/nextcloud-hub26-spring/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48494048",
+      "author": "bityard",
+      "createdAt": "2026-06-11T18:01:35Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 39,
+        "freshness": 39,
+        "business": 74,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "reddit-1tvtt3j",
+      "source": "Reddit",
+      "title": "What is your solution to the port-forwarding security risk?",
+      "excerpt": "Are Tailscale, Headscale, NetBird, WireGuard, or a reverse proxy meaningfully safer than directly exposing a self-hosted service?",
+      "url": "https://www.reddit.com/r/selfhosted/comments/1tvtt3j/what_is_your_solution_to_the_port_forwarding/",
+      "discussionUrl": "https://www.reddit.com/r/selfhosted/comments/1tvtt3j/what_is_your_solution_to_the_port_forwarding/",
+      "author": null,
+      "community": "r/selfhosted",
+      "createdAt": "2026-06-03T00:00:00.000Z",
+      "engagement": 8,
+      "matchedQuery": "vpn without port forwarding",
+      "intent": "Compare",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 100,
+        "depth": 38,
+        "freshness": 31,
+        "business": 51,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "reddit-1tbahb1",
+      "source": "Reddit",
+      "title": "What is the most secure way to access Windows and macOS machines remotely?",
+      "excerpt": "How should WireGuard or Tailscale be paired with RDP or VNC for secure remote access without exposing those services directly?",
+      "url": "https://www.reddit.com/r/homelab/comments/1tbahb1/remote_pc_access/",
+      "discussionUrl": "https://www.reddit.com/r/homelab/comments/1tbahb1/remote_pc_access/",
+      "author": null,
+      "community": "r/homelab",
+      "createdAt": "2026-05-12T00:00:00.000Z",
+      "engagement": 41,
+      "matchedQuery": "remote access home lab",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 100,
+        "depth": 40,
+        "freshness": 20,
+        "business": 61,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "reddit-1u97w9a",
+      "source": "Reddit",
+      "title": "How do you expose home-lab services remotely?",
+      "excerpt": "Should services stay private behind Tailscale, be published through a VPS with a public IP, or use another remote-access pattern?",
+      "url": "https://www.reddit.com/r/homelab/comments/1u97w9a/what_was_the_initial_reason_you_started/",
+      "discussionUrl": "https://www.reddit.com/r/homelab/comments/1u97w9a/what_was_the_initial_reason_you_started/",
+      "author": null,
+      "community": "r/homelab",
+      "createdAt": "2026-06-18T00:00:00.000Z",
+      "engagement": 12,
+      "matchedQuery": "remote access home lab",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 80,
+        "depth": 36,
+        "freshness": 44,
+        "business": 74,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZwbg",
+      "source": "Search suggestions",
+      "title": "tailscale vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 30,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIHZwbg",
+      "source": "Search suggestions",
+      "title": "tailscale vs vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 51,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHNzaCBub3Qgd29ya2luZw",
+      "source": "Search suggestions",
+      "title": "tailscale ssh not working",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale ssh”.",
+      "url": "https://www.google.com/search?q=tailscale%20ssh%20not%20working",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "tailscale ssh",
+      "intent": "Troubleshoot",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 62
+      }
+    },
+    {
+      "id": "hn-49134632",
+      "source": "Hacker News",
+      "title": "Ten Ways NAS Is Getting Enshitified",
+      "excerpt": "Plenty of people run ad-blocking DNS on their router, or mesh VPN software. Handy for devices where you can't install an ad blocker directly, and for working around CGNAT issues due to IPv4 exhaustion. If my microwave had programmable firmware I'd absolutely reprogram it, get ri…",
+      "url": "https://nascompares.com/2026/07/31/the-10-ways-nas-is-getting-enshitified/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49134632",
+      "author": "throw2ih020",
+      "createdAt": "2026-08-01T14:12:04Z",
+      "engagement": 0,
+      "matchedQuery": "mesh vpn",
+      "intent": "Troubleshoot",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 58,
+        "depth": 67,
+        "freshness": 85,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "hn-49103509",
+      "source": "Hacker News",
+      "title": "Superlogical",
+      "excerpt": "I’m tracking them all here[0] The first app in this space was VibeTunnel[1]. It basically lets you start terminals on your Mac and the web app allows you to control these terminals on your iPhone using Tailscale. In the end, it’s just terminals on the web with organization aroun…",
+      "url": "https://www.superlogical.com/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49103509",
+      "author": "theturtletalks",
+      "createdAt": "2026-07-29T21:47:58Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 30,
+        "freshness": 82,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIG1pbmVjcmFmdCBzZXJ2ZXI",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for minecraft server",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20minecraft%20server",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 35,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIGplbGx5Zmlu",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for jellyfin",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20jellyfin",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIG1pbmVjcmFmdA",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for minecraft",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20minecraft",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHN0YXJkZXcgdmFsbGV5",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for stardew valley",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20stardew%20valley",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 35,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIG1pbmVjcmFmdCBsYW4",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for minecraft lan",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20minecraft%20lan",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIG9uIG1vYmlsZSBkYXRh",
+      "source": "Search suggestions",
+      "title": "tailscale not working on mobile data",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20on%20mobile%20data",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHdpbmRvd3MgMTE",
+      "source": "Search suggestions",
+      "title": "tailscale not working windows 11",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20windows%2011",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHdpdGggbW9vbmxpZ2h0",
+      "source": "Search suggestions",
+      "title": "tailscale not working with moonlight",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20with%20moonlight",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 34,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-bGludXggcmVtb3RlIGFjY2VzcyB3aXRob3V0IHBvcnQgZm9yd2FyZGluZw",
+      "source": "Search suggestions",
+      "title": "linux remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=linux%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 46,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 61
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGFkbWlu",
+      "source": "Search suggestions",
+      "title": "tailscale admin",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20admin",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGRvd25sb2Fk",
+      "source": "Search suggestions",
+      "title": "tailscale download",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20download",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGxvZ2lu",
+      "source": "Search suggestions",
+      "title": "tailscale login",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20login",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGFkbWluIGNvbnNvbGU",
+      "source": "Search suggestions",
+      "title": "tailscale admin console",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20admin%20console",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGZ1bm5lbA",
+      "source": "Search suggestions",
+      "title": "tailscale funnel",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20funnel",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIGNvbnNvbGU",
+      "source": "Search suggestions",
+      "title": "tailscale console",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20console",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHN0YXR1cw",
+      "source": "Search suggestions",
+      "title": "tailscale status",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale”.",
+      "url": "https://www.google.com/search?q=tailscale%20status",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "tailscale",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIGNsb3VkZmxhcmUgdHVubmVs",
+      "source": "Search suggestions",
+      "title": "tailscale vs cloudflare tunnel",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20cloudflare%20tunnel",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIGNsb3VkZmxhcmU",
+      "source": "Search suggestions",
+      "title": "tailscale vs cloudflare",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20cloudflare",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIG5ncm9r",
+      "source": "Search suggestions",
+      "title": "tailscale vs ngrok",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20ngrok",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIHZzIHBhbmdvbGlu",
+      "source": "Search suggestions",
+      "title": "tailscale vs pangolin",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale vs”.",
+      "url": "https://www.google.com/search?q=tailscale%20vs%20pangolin",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "tailscale vs",
+      "intent": "Compare",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIHBsZXg",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for plex",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20plex",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-aG93IHRvIHVzZSB0YWlsc2NhbGUgZm9yIGdhbWluZw",
+      "source": "Search suggestions",
+      "title": "how to use tailscale for gaming",
+      "excerpt": "Autocomplete question surfaced from the seed “how to use tailscale for”.",
+      "url": "https://www.google.com/search?q=how%20to%20use%20tailscale%20for%20gaming",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "how to use tailscale for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIG9uIGlwaG9uZQ",
+      "source": "Search suggestions",
+      "title": "tailscale not working on iphone",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20on%20iphone",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIG9uIG1hYw",
+      "source": "Search suggestions",
+      "title": "tailscale not working on mac",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20on%20mac",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHdpdGggcGxleA",
+      "source": "Search suggestions",
+      "title": "tailscale not working with plex",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20with%20plex",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIHppbWFvcw",
+      "source": "Search suggestions",
+      "title": "tailscale not working zimaos",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20zimaos",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "suggest-dGFpbHNjYWxlIG5vdCB3b3JraW5nIGFuZHJvaWQ",
+      "source": "Search suggestions",
+      "title": "tailscale not working android",
+      "excerpt": "Autocomplete question surfaced from the seed “tailscale not working”.",
+      "url": "https://www.google.com/search?q=tailscale%20not%20working%20android",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "tailscale not working",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 60
+      }
+    },
+    {
+      "id": "hn-48266884",
+      "source": "Hacker News",
+      "title": "I love my Bluetooth keyboard",
+      "excerpt": "Well, if you have BYOD policy consider yourself blessed. Many are simply not allowed to do whatever on their managed devices. My recommendation is use OpenSSH (alternative: Wireguard, Tailscale for whole TCP&#x2F;IP stack), tmux (or equivalent, there are alternatives such as zel…",
+      "url": "https://liquidbrain.net/blog/i-love-my-bluetooth-keyboard/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48266884",
+      "author": "Fnoord",
+      "createdAt": "2026-05-25T13:54:57Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Compare",
+      "cluster": "Tailscale SSH",
+      "scores": {
+        "relevance": 96,
+        "depth": 55,
+        "freshness": 23,
+        "business": 41,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "stackoverflow-79965042",
+      "source": "Stack Overflow",
+      "title": "Tailscale fails to install CONNMARK rules: iptables unknown option '--restore-mark'",
+      "excerpt": "Tailscale fails to install CONNMARK rules: iptables unknown option '--restore-mark'",
+      "url": "https://stackoverflow.com/questions/79965042/tailscale-fails-to-install-connmark-rules-iptables-unknown-option-restore-ma",
+      "discussionUrl": "https://stackoverflow.com/questions/79965042/tailscale-fails-to-install-connmark-rules-iptables-unknown-option-restore-ma",
+      "author": "Poonam Singh",
+      "createdAt": "2026-06-22T05:33:27.000Z",
+      "engagement": 0.43,
+      "matchedQuery": "tailscale",
+      "tags": [
+        "tailscale"
+      ],
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 42,
+        "freshness": 48,
+        "business": 54,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-cmVtb3RlIGRlc2t0b3Agd2l0aG91dCBwb3J0IGZvcndhcmRpbmc",
+      "source": "Search suggestions",
+      "title": "remote desktop without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=remote%20desktop%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 34,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-amVsbHlmaW4gcmVtb3RlIGFjY2VzcyB3aXRob3V0IHBvcnQgZm9yd2FyZGluZw",
+      "source": "Search suggestions",
+      "title": "jellyfin remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=jellyfin%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 36,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-cGxleCByZW1vdGUgYWNjZXNzIHdpdGhvdXQgcG9ydCBmb3J3YXJkaW5n",
+      "source": "Search suggestions",
+      "title": "plex remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=plex%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 35,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-cGxleCByZW1vdGUgYWNjZXNzIHdpdGhvdXQgcG9ydCBmb3J3YXJkaW5nIHJlZGRpdA",
+      "source": "Search suggestions",
+      "title": "plex remote access without port forwarding reddit",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=plex%20remote%20access%20without%20port%20forwarding%20reddit",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 36,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-ZW1ieSByZW1vdGUgYWNjZXNzIHdpdGhvdXQgcG9ydCBmb3J3YXJkaW5n",
+      "source": "Search suggestions",
+      "title": "emby remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=emby%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 35,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-c3lub2xvZ3kgcmVtb3RlIGFjY2VzcyB3aXRob3V0IHBvcnQgZm9yd2FyZGluZw",
+      "source": "Search suggestions",
+      "title": "synology remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=synology%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 36,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-aGlrdmlzaW9uIHJlbW90ZSBhY2Nlc3Mgd2l0aG91dCBwb3J0IGZvcndhcmRpbmc",
+      "source": "Search suggestions",
+      "title": "hikvision remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=hikvision%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 36,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-aG9tZSBhc3Npc3RhbnQgcmVtb3RlIGFjY2VzcyB3aXRob3V0IHBvcnQgZm9yd2FyZGluZw",
+      "source": "Search suggestions",
+      "title": "home assistant remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=home%20assistant%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 2,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Services without port forwarding",
+      "scores": {
+        "relevance": 58,
+        "depth": 37,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "suggest-cmFzcGJlcnJ5IHBpIHJlbW90ZSBhY2Nlc3Mgd2l0aG91dCBwb3J0IGZvcndhcmRpbmc",
+      "source": "Search suggestions",
+      "title": "raspberry pi remote access without port forwarding",
+      "excerpt": "Autocomplete question surfaced from the seed “remote access without port forwarding”.",
+      "url": "https://www.google.com/search?q=raspberry%20pi%20remote%20access%20without%20port%20forwarding",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 1,
+      "matchedQuery": "remote access without port forwarding",
+      "intent": "Adopt",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 58,
+        "depth": 36,
+        "freshness": 78,
+        "business": 64,
+        "opportunity": 59
+      }
+    },
+    {
+      "id": "hn-49127114",
+      "source": "Hacker News",
+      "title": "Show HN: BitBang – Reach machines behind NAT from a browser, no account",
+      "excerpt": "Thank you -- and if you're the Sean who wrote Pion, this is built on your work, so that means a lot. :) The friends case is exactly the gap I kept running into. A mesh VPN is fine for my own devices and hopeless the moment someone else needs in, because now they're installing a…",
+      "url": "https://github.com/richlegrand/bitbang-cli",
+      "discussionUrl": "https://news.ycombinator.com/item?id=49127114",
+      "author": "narragansett",
+      "createdAt": "2026-07-31T18:46:58Z",
+      "engagement": 0,
+      "matchedQuery": "mesh vpn",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 51,
+        "freshness": 84,
+        "business": 41,
+        "opportunity": 58
+      }
+    },
+    {
+      "id": "suggest-bWVzaCB2cG4gdnMgd2lyZWd1YXJk",
+      "source": "Search suggestions",
+      "title": "mesh vpn vs wireguard",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=mesh%20vpn%20vs%20wireguard",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 74,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 58
+      }
+    },
+    {
+      "id": "hn-48583131",
+      "source": "Hacker News",
+      "title": "The Forge We Deserve",
+      "excerpt": "Very timely as I just set up Forgejo yesterday. There were immediate unexpected benefits moving off GitHub. It’s hosted on an Orbstack VM on a Mac Mini M4 on my local Tailscale network and the UI is incredibly snappy and quick to browse. Because it’s located inside my tailnet wi…",
+      "url": "https://btao.org/posts/2026-05-09-the-forge-we-deserve/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48583131",
+      "author": "znnajdla",
+      "createdAt": "2026-06-18T09:58:12Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale kubernetes",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 31,
+        "freshness": 45,
+        "business": 54,
+        "opportunity": 57
+      }
+    },
+    {
+      "id": "hn-48837634",
+      "source": "Hacker News",
+      "title": "Chatto is now open source",
+      "excerpt": "This project looks great and I wish them luck. I'm just lamenting the fact that we still haven't solved the really big problem with Slack-like chat apps. The Tailscale analogy isn't quite right because there are no real network effects involved. Most of Tailscale's utility exist…",
+      "url": "https://www.hmans.dev/blog/chatto-is-open-source",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48837634",
+      "author": "jacobgold",
+      "createdAt": "2026-07-08T21:23:52Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Troubleshoot",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 80,
+        "depth": 32,
+        "freshness": 63,
+        "business": 41,
+        "opportunity": 57
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBuZXR3b3JrIGFjY2VzcyBmb3IgZHVtbWllcw",
+      "source": "Search suggestions",
+      "title": "zero trust network access for dummies",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20network%20access%20for%20dummies",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "zero trust network for",
+      "intent": "Adopt",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 34,
+        "freshness": 78,
+        "business": 54,
+        "opportunity": 56
+      }
+    },
+    {
+      "id": "hn-48634445",
+      "source": "Hacker News",
+      "title": "Five Eyes warns AI models capable of toppling governments are months away",
+      "excerpt": "It would be simpler require critical software to focus on security and quickly shift to secure approaches. I mean, there are was article about how small water districts are short on funds and so choose to allow remote access to water treatment machinery so their engineers can wo…",
+      "url": "https://www.theguardian.com/technology/2026/jun/22/anthropic-claude-fable-ai-model-artificial-intelligence-national-security",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48634445",
+      "author": "joe_the_user",
+      "createdAt": "2026-06-22T18:56:47Z",
+      "engagement": 0,
+      "matchedQuery": "remote access home lab",
+      "intent": "Evaluate",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 40,
+        "freshness": 49,
+        "business": 61,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBpbiBuZXR3b3JrIHNlY3VyaXR5",
+      "source": "Search suggestions",
+      "title": "zero trust in network security",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20in%20network%20security",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "zero trust network for",
+      "intent": "Evaluate",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBzZWN1cml0eSBmb3IgbmV0d29yayBhbmQgY2xvdWQ",
+      "source": "Search suggestions",
+      "title": "zero trust security for network and cloud",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20security%20for%20network%20and%20cloud",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "zero trust network for",
+      "intent": "Evaluate",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 35,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-bWVzaCB2cG4gdnMgdHJhZGl0aW9uYWwgdnBu",
+      "source": "Search suggestions",
+      "title": "mesh vpn vs traditional vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=mesh%20vpn%20vs%20traditional%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-Y2hlY2twb2ludCB2cG4gbWVzaCB2cyBzdGFy",
+      "source": "Search suggestions",
+      "title": "checkpoint vpn mesh vs star",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=checkpoint%20vpn%20mesh%20vs%20star",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 7,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 33,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-bWVzaCB2cG4gdnMgaHViIGFuZCBzcG9rZQ",
+      "source": "Search suggestions",
+      "title": "mesh vpn vs hub and spoke",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=mesh%20vpn%20vs%20hub%20and%20spoke",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 5,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 32,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 53
+      }
+    },
+    {
+      "id": "suggest-bWVzaCB2cG4gdnMgdnBu",
+      "source": "Search suggestions",
+      "title": "mesh vpn vs vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=mesh%20vpn%20vs%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 52
+      }
+    },
+    {
+      "id": "suggest-bWVzaCBuZXR3b3JrIHZzIHZwbg",
+      "source": "Search suggestions",
+      "title": "mesh network vs vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=mesh%20network%20vs%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 52
+      }
+    },
+    {
+      "id": "suggest-d2hhdCBpcyBtZXNoIHZwbg",
+      "source": "Search suggestions",
+      "title": "what is mesh vpn",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=what%20is%20mesh%20vpn",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 4,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 31,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 52
+      }
+    },
+    {
+      "id": "suggest-dnBuIHZzIHZwYw",
+      "source": "Search suggestions",
+      "title": "vpn vs vpc",
+      "excerpt": "Autocomplete question surfaced from the seed “mesh vpn vs”.",
+      "url": "https://www.google.com/search?q=vpn%20vs%20vpc",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 3,
+      "matchedQuery": "mesh vpn vs",
+      "intent": "Compare",
+      "cluster": "Tailscale vs traditional VPNs",
+      "scores": {
+        "relevance": 58,
+        "depth": 30,
+        "freshness": 78,
+        "business": 41,
+        "opportunity": 52
+      }
+    },
+    {
+      "id": "hn-48309229",
+      "source": "Hacker News",
+      "title": "Show HN: Beacon CLI for self-hosted monitoring, remote access and deployments",
+      "excerpt": "I've been building a cli for my homelab&#x2F;self-hosted setup. The original motivation was getting tired of stitching together deployments, monitoring, remote SSH access and random scripts. It’s a open source CLI, all-in-one tool for monitoring, secure remote accces (tunnel and…",
+      "url": "https://github.com/Bajusz15/beacon",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48309229",
+      "author": "matebajusz",
+      "createdAt": "2026-05-28T14:12:32Z",
+      "engagement": 9,
+      "matchedQuery": "remote access home lab",
+      "intent": "Evaluate",
+      "cluster": "Remote home lab access",
+      "scores": {
+        "relevance": 58,
+        "depth": 52,
+        "freshness": 26,
+        "business": 61,
+        "opportunity": 51
+      }
+    },
+    {
+      "id": "hn-48264201",
+      "source": "Hacker News",
+      "title": "Selling SaaS in Germany",
+      "excerpt": "Same. And even for Tailscale we use a European alternative (Xplicittrust), because this aggressive growth of VC backed American tech is a real turn-off. We have seen where that leads often enough by now.",
+      "url": "https://embedworkflow.com/blog/selling-saas-in-germany-austria-and-switzerland-dach/",
+      "discussionUrl": "https://news.ycombinator.com/item?id=48264201",
+      "author": "d1ss0nanz",
+      "createdAt": "2026-05-25T07:02:37Z",
+      "engagement": 0,
+      "matchedQuery": "tailscale alternative",
+      "intent": "Compare",
+      "cluster": "Alternatives and self-hosting",
+      "scores": {
+        "relevance": 80,
+        "depth": 43,
+        "freshness": 23,
+        "business": 41,
+        "opportunity": 51
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBuZXR3b3JrcyBieSBldmFuIGdpbG1hbg",
+      "source": "Search suggestions",
+      "title": "zero trust networks by evan gilman",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20networks%20by%20evan%20gilman",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 10,
+      "matchedQuery": "zero trust network for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 34,
+        "freshness": 78,
+        "business": 31,
+        "opportunity": 50
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBuZXR3b3JrcyB3aXRoIHZtd2FyZSBuc3g",
+      "source": "Search suggestions",
+      "title": "zero trust networks with vmware nsx",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20networks%20with%20vmware%20nsx",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 9,
+      "matchedQuery": "zero trust network for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 34,
+        "freshness": 78,
+        "business": 31,
+        "opportunity": 50
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBuZXR3b3JrcyBieSBnaWxtYW4gJiBiYXJ0aA",
+      "source": "Search suggestions",
+      "title": "zero trust networks by gilman & barth",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20networks%20by%20gilman%20%26%20barth",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 8,
+      "matchedQuery": "zero trust network for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 34,
+        "freshness": 78,
+        "business": 31,
+        "opportunity": 50
+      }
+    },
+    {
+      "id": "suggest-emVybyB0cnVzdCBpbiBuZXR3b3Jr",
+      "source": "Search suggestions",
+      "title": "zero trust in network",
+      "excerpt": "Autocomplete question surfaced from the seed “zero trust network for”.",
+      "url": "https://www.google.com/search?q=zero%20trust%20in%20network",
+      "discussionUrl": null,
+      "author": null,
+      "createdAt": "2026-08-18T19:10:30.126Z",
+      "engagement": 6,
+      "matchedQuery": "zero trust network for",
+      "intent": "Discover",
+      "cluster": "Core concepts and use cases",
+      "scores": {
+        "relevance": 58,
+        "depth": 32,
+        "freshness": 78,
+        "business": 31,
+        "opportunity": 50
+      }
+    }
+  ]
+}
