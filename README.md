@@ -4,7 +4,7 @@ A small, reproducible research package that turns current public technical signa
 
 **[View the live project](https://question-radar-tailscale.vercel.app/)** · [View the repository](https://github.com/andiexchoi/question-radar-tailscale)
 
-Built by [Andie Choi](https://github.com/andiexchoi) as an independent application project for Tailscale's Technical Growth Content Specialist role. This is an unofficial project and is not affiliated with Tailscale.
+Built by [Andie Choi](https://andiechoi.com) as an independent application project for Tailscale's Technical Growth Content Specialist role. This is an unofficial project and is not affiliated with Tailscale. [GitHub profile](https://github.com/andiexchoi).
 
 The package includes:
 

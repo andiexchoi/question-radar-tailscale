@@ -107,7 +107,8 @@ function ProjectContext() {
       <p><strong>Independent application project</strong> for Tailscale&apos;s Technical Growth Content Specialist role.</p>
       <div>
         <span>Unofficial · not affiliated with Tailscale</span>
-        <a href="https://github.com/andiexchoi" target="_blank" rel="noreferrer">Built by Andie Choi ↗</a>
+        <a href="https://andiechoi.com" target="_blank" rel="noreferrer">Built by Andie Choi ↗</a>
+        <a href="https://github.com/andiexchoi" target="_blank" rel="noreferrer">GitHub ↗</a>
         <a href="https://github.com/andiexchoi/question-radar-tailscale" target="_blank" rel="noreferrer">Repository ↗</a>
       </div>
     </aside>

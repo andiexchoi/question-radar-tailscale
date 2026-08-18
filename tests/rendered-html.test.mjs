@@ -13,6 +13,7 @@ test("ships the interactive Tailscale findings surface", async () => {
   assert.match(page, /Content sample/);
   assert.match(page, /Methodology/);
   assert.match(page, /Built by Andie Choi/);
+  assert.match(page, /https:\/\/andiechoi\.com/);
   assert.match(page, /Documentation-validated technical sample/);
   assert.match(layout, /Question Radar — Tailscale demand intelligence/);
   assert.doesNotMatch(page, /SkeletonPreview|react-loading-skeleton/i);
