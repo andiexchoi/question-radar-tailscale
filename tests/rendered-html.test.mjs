@@ -9,9 +9,11 @@ test("ships the interactive Tailscale findings surface", async () => {
   ]);
 
   assert.match(page, /Questions are/);
-  assert.match(page, /Question explorer/);
+  assert.match(page, /Signal explorer/);
   assert.match(page, /Content sample/);
   assert.match(page, /Methodology/);
+  assert.match(page, /Built by Andie Choi/);
+  assert.match(page, /Documentation-validated technical sample/);
   assert.match(layout, /Question Radar — Tailscale demand intelligence/);
   assert.doesNotMatch(page, /SkeletonPreview|react-loading-skeleton/i);
 });
@@ -24,8 +26,9 @@ test("ships the reproducible research package", async () => {
   ]);
 
   const parsed = JSON.parse(data);
-  assert.equal(parsed.total, 129);
+  assert.ok(parsed.total > 100);
   assert.equal(parsed.sourceStatus.length, 4);
+  assert.ok(parsed.curation.reviewedExclusions > 0);
   assert.ok(parsed.summary.clusters.length >= 8);
   assert.match(methodology, /relevance × 35%/);
   assert.match(article, /Tailscale Kubernetes Operator/);

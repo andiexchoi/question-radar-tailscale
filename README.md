@@ -1,6 +1,10 @@
 # Question Radar: Tailscale demand intelligence
 
-A small, reproducible research package that turns current public technical questions into content opportunities for Tailscale.
+A small, reproducible research package that turns current public technical signals into content hypotheses for Tailscale.
+
+**[View the live project](https://question-radar-tailscale.vercel.app/)** · [View the repository](https://github.com/andiexchoi/question-radar-tailscale)
+
+Built by [Andie Choi](https://github.com/andiexchoi) as an independent application project for Tailscale's Technical Growth Content Specialist role. This is an unofficial project and is not affiliated with Tailscale.
 
 The package includes:
 
@@ -15,11 +19,11 @@ The package includes:
 
 Generated on August 18, 2026:
 
-- 129 normalized questions
+- 116 curated public signals
 - 4 public source types
 - 5 user intents: Discover, Compare, Evaluate, Troubleshoot, Adopt
 - 10 topic clusters
-- strongest opportunity: Tailscale with Kubernetes
+- highest-scoring hypothesis in this sample: Tailscale with Kubernetes
 
 The checked-in snapshot lives at [`data/questions.json`](data/questions.json). The interactive site serves the same file as a download.
 
@@ -57,7 +61,7 @@ Reddit sometimes blocks automated public search requests. When that happens, the
 
 ## Scoring
 
-Each question receives four component scores from 0–100:
+Each signal receives four component scores from 0–100:
 
 ```text
 opportunity = relevance × 35%
@@ -66,15 +70,17 @@ opportunity = relevance × 35%
             + likely business value × 25%
 ```
 
-Cluster scores use the mean of their questions plus a bounded volume bonus. See [`data/methodology.md`](data/methodology.md) for classification rules, limitations, and source details.
+These author-defined weights are an initial prioritization hypothesis, not a model fitted to traffic or conversion data. Relevance is the first gate; business value favors adoption and production language; depth and freshness improve usefulness without being treated as proof of demand. Cluster scores use the mean of their signals plus a bounded volume bonus. See [`data/methodology.md`](data/methodology.md) for classification rules, limitations, and source details.
+
+High-scoring incidental mentions are removed through [`data/reviewed-exclusions.json`](data/reviewed-exclusions.json), with a reason recorded for every exclusion.
 
 ## Content sample
 
-The highest-ranked opportunity is developed into a publishable tutorial:
+The highest-ranked hypothesis is developed into a documentation-validated technical sample:
 
 [`content/tailscale-kubernetes-private-service.md`](content/tailscale-kubernetes-private-service.md)
 
-It covers operator identity, installation, private service exposure, tailnet grants, high-availability ingress, negative-path testing, and layer-by-layer troubleshooting. Technical claims and commands are grounded in current Tailscale documentation linked in the article.
+It covers operator identity, installation, private service exposure, tailnet grants, high-availability ingress, negative-path testing, and layer-by-layer troubleshooting. Technical claims and commands are grounded in current Tailscale documentation linked in the article. The commands have **not** been executed against a live Kubernetes cluster.
 
 ## Repository map
 
@@ -90,4 +96,11 @@ tests/                 rendered-package checks
 
 ## Important limitation
 
-This is directional demand intelligence, not a measure of total search volume. Public APIs omit private, deleted, personalized, rate-limited, and unindexed questions. Use the ranking to choose content experiments, then validate them with Search Console, product analytics, and customer conversations.
+This is directional demand intelligence, not a measure of total search volume. Public APIs omit private, deleted, personalized, rate-limited, and unindexed signals. Use the ranking to choose content experiments, then validate them with Search Console, product analytics, and customer conversations.
+
+## What I would do with internal access
+
+- Validate query clusters, impressions, click-through rate and ranking gaps in Search Console.
+- Connect content visits to signup, second-node connection and first useful route in product analytics.
+- Measure assisted upgrades and self-serve revenue with content attribution.
+- Compare the public-language clusters with support logs, sales calls and customer interviews.

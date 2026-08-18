@@ -8,7 +8,7 @@ export async function generateMetadata(): Promise<Metadata> {
   const protocol = requestHeaders.get("x-forwarded-proto") || (host.startsWith("localhost") ? "http" : "https");
   const image = `${protocol}://${host}/og.png`;
   const title = "Question Radar — Tailscale demand intelligence";
-  const description = "129 current technical questions, eight content opportunities, and one practical Tailscale Kubernetes tutorial.";
+  const description = "A directional public-signal sample, eight content hypotheses, and one documentation-validated Tailscale Kubernetes tutorial.";
 
   return {
     title,

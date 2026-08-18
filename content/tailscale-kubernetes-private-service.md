@@ -3,9 +3,12 @@ title: Expose a private Kubernetes service to your tailnet—without a public lo
 description: A practical Tailscale Kubernetes Operator tutorial for giving engineers private, identity-aware access to an internal HTTP service.
 intent: Adopt
 cluster: Tailscale with Kubernetes
+validation: Documentation-validated; commands not executed against a live Kubernetes cluster
 ---
 
 # Expose a private Kubernetes service to your tailnet—without a public load balancer
+
+> **Validation status:** This is a documentation-validated technical sample. The commands have not been executed against a live Kubernetes cluster.
 
 Your internal dashboard does not need a public IP, a public DNS record, or an internet-facing load balancer just because engineers need to reach it from home.
 

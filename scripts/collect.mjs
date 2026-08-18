@@ -3,9 +3,12 @@ import path from "node:path";
 
 const OUTPUT = path.resolve("data/questions.json");
 const PUBLIC_OUTPUT = path.resolve("public/questions.json");
+const REVIEWED_EXCLUSIONS = path.resolve("data/reviewed-exclusions.json");
 const LOOKBACK_DAYS = 90;
 const now = new Date();
 const cutoff = Math.floor((now.getTime() - LOOKBACK_DAYS * 864e5) / 1000);
+const reviewedExclusions = JSON.parse(await fs.readFile(REVIEWED_EXCLUSIONS, "utf8"));
+const reviewedExclusionIds = new Set(reviewedExclusions.map((item) => item.id));
 
 const queries = [
   "tailscale",
@@ -228,6 +231,7 @@ function normalize(records) {
     if (!existing || record.engagement > existing.engagement) seen.set(key, record);
   }
   return [...seen.values()]
+    .filter(record => !reviewedExclusionIds.has(record.id))
     .filter(record => productTerms.some(term => `${record.title} ${record.excerpt}`.toLowerCase().includes(term)))
     .map(record => {
       const intent = inferIntent(`${record.title} ${record.excerpt}`);
@@ -284,6 +288,7 @@ for (const [source, collector] of tasks) {
 }
 
 const questions = normalize(collected);
+const excludedMatches = new Set(collected.filter(record => reviewedExclusionIds.has(record.id)).map(record => record.id)).size;
 const dataset = {
   generatedAt: now.toISOString(),
   lookbackDays: LOOKBACK_DAYS,
@@ -291,6 +296,10 @@ const dataset = {
   competitors: competitorTerms,
   sourceStatus,
   total: questions.length,
+  curation: {
+    reviewedExclusions: excludedMatches,
+    exclusionFile: "data/reviewed-exclusions.json",
+  },
   summary: summarize(questions),
   questions,
 };
@@ -300,4 +309,4 @@ const serialized = `${JSON.stringify(dataset, null, 2)}\n`;
 await fs.writeFile(OUTPUT, serialized);
 await fs.mkdir(path.dirname(PUBLIC_OUTPUT), { recursive: true });
 await fs.writeFile(PUBLIC_OUTPUT, serialized);
-console.log(`Saved ${questions.length} normalized questions to ${OUTPUT}`);
+console.log(`Saved ${questions.length} normalized public signals to ${OUTPUT}`);

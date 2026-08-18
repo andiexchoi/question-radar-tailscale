@@ -1,6 +1,6 @@
 # Question Radar methodology
 
-Question Radar treats public technical questions as evidence of audience demand. The collector checks four surfaces:
+Question Radar treats public technical questions, discussions, and search suggestions as directional audience signals. The collector checks four surfaces:
 
 - Hacker News via the public Algolia HN Search API
 - Reddit via its public search response when available, with a checked-in web-indexed snapshot as a transparent fallback when Reddit blocks automated requests
@@ -11,11 +11,11 @@ Question Radar treats public technical questions as evidence of audience demand.
 
 The dataset uses a rolling 90-day window for dated sources. Search suggestions are a point-in-time snapshot because the endpoint does not expose dates. Queries cover Tailscale, mesh VPNs, zero-trust networking, remote access, home labs, Kubernetes, SSH, subnet routing, port forwarding, and alternatives.
 
-The collector normalizes HTML, deduplicates exact normalized titles, and keeps the higher-engagement record when duplicate titles appear. It excludes records without a direct match to a tracked product or category term.
+The collector normalizes HTML, deduplicates exact normalized titles, and keeps the higher-engagement record when duplicate titles appear. It excludes records without a direct match to a tracked product or category term. A checked-in manual review list removes high-ranking records where Tailscale appears only incidentally; each exclusion includes a reason.
 
 ## Intent classification
 
-Each question receives one deterministic intent:
+Each signal receives one deterministic intent:
 
 - **Discover:** Understand the category or a possible use case.
 - **Compare:** Contrast Tailscale with another product or networking model.
@@ -25,7 +25,7 @@ Each question receives one deterministic intent:
 
 ## Scoring
 
-Every record receives four 0–100 component scores and a weighted opportunity score:
+Every record receives four 0–100 component scores and a weighted opportunity score. The weights are an initial prioritization hypothesis, not coefficients fitted to traffic, conversion, or revenue data:
 
 `opportunity = relevance × 35% + technical depth × 20% + freshness × 20% + business value × 25%`
 
@@ -34,8 +34,10 @@ Every record receives four 0–100 component scores and a weighted opportunity s
 - **Freshness** decays with age for dated sources. Suggestions receive a fixed point-in-time freshness score.
 - **Business value** rewards adoption, production, team, enterprise, access, security, and scaling language.
 
-Cluster scores use the mean of their member questions plus a bounded volume bonus. This keeps a large but weak cluster from automatically outranking a smaller, technically rich one.
+Relevance receives the highest weight because direct audience and product fit is the first gate. Business value is next to favor signals closer to adoption and production use. Technical depth and freshness receive equal, lower weights because specificity and timing improve usefulness, but neither alone demonstrates market demand.
+
+Cluster scores use the mean of their member signals plus a bounded volume bonus. This keeps a large but weak cluster from automatically outranking a smaller, technically rich one.
 
 ## Limitations
 
-The dataset is directional, not a measure of total search volume. Public APIs can omit deleted, private, rate-limited, personalized, or unindexed questions. Keyword classification is reproducible but less nuanced than human labeling. Search suggestions are location- and language-sensitive. Use the findings to prioritize experiments, then validate with Search Console, product analytics, and customer conversations.
+The dataset is directional, not a measure of total search volume. Public APIs can omit deleted, private, rate-limited, personalized, or unindexed signals. Keyword classification is reproducible but less nuanced than human labeling. Search suggestions are location- and language-sensitive. Use the findings to prioritize experiments, then validate with Search Console, product analytics, and customer conversations.

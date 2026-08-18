@@ -101,6 +101,19 @@ function Header({ tab, setTab }: { tab: Tab; setTab: (tab: Tab) => void }) {
   );
 }
 
+function ProjectContext() {
+  return (
+    <aside className="project-context">
+      <p><strong>Independent application project</strong> for Tailscale&apos;s Technical Growth Content Specialist role.</p>
+      <div>
+        <span>Unofficial · not affiliated with Tailscale</span>
+        <a href="https://github.com/andiexchoi" target="_blank" rel="noreferrer">Built by Andie Choi ↗</a>
+        <a href="https://github.com/andiexchoi/question-radar-tailscale" target="_blank" rel="noreferrer">Repository ↗</a>
+      </div>
+    </aside>
+  );
+}
+
 function Findings() {
   const [intent, setIntent] = useState("All");
   const [source, setSource] = useState("All");
@@ -122,11 +135,11 @@ function Findings() {
       <section className="intro">
         <div className="intro-copy">
           <div className="kicker">TAILSCALE DEMAND INTELLIGENCE / CURRENT SNAPSHOT</div>
-          <h1>Questions are<br />demand signals.</h1>
+          <h1>Questions are<br />public signals.</h1>
           <p>
-            We tracked what technical buyers are asking about Tailscale, VPNs,
-            zero-trust networking and remote access—then turned the strongest
-            patterns into content worth publishing.
+            I tracked what technical buyers are asking about Tailscale, VPNs,
+            zero-trust networking and remote access—then turned the clearest
+            patterns into content hypotheses worth testing.
           </p>
           <div className="source-row">
             {dataset.summary.bySource.map((item) => <span key={item.name}>{sourceCode[item.name]} <b>{item.count}</b></span>)}
@@ -135,12 +148,12 @@ function Findings() {
         <div className="headline-finding">
           <div className="finding-label">THE ONE-LINE FINDING</div>
           <blockquote>
-            The strongest demand is not for another mesh-VPN definition. It is for a
-            confident path from <em>“can this work?”</em> to <em>“here is the exact setup.”</em>
+            Within this directional sample, the strongest opportunity is content that moves users from
+            <em> “can this work?”</em> to <em>“here is the exact setup.”</em>
           </blockquote>
           <div className="sample-size">
             <strong>{dataset.total}</strong>
-            <span>normalized questions<br />in this snapshot</span>
+            <span>curated public signals<br />in this snapshot</span>
           </div>
         </div>
       </section>
@@ -161,7 +174,7 @@ function Findings() {
             >
               <div className="intent-top"><span>{item.name}</span><strong>{item.share}%</strong></div>
               <div className="intent-bar"><i style={{ width: `${Math.min(100, item.share * 2.4)}%` }} /></div>
-              <p>{item.count} questions</p>
+              <p>{item.count} signals</p>
             </button>
           ))}
         </div>
@@ -172,7 +185,7 @@ function Findings() {
             <div>
               <div className="callout-tag">STRONGEST OPPORTUNITY</div>
               <h3>{strongest.name}</h3>
-              <p>{strongest.count} related questions combine the best relevance, depth, freshness and business-value score in the current snapshot.</p>
+              <p>{strongest.count} related signals produce the highest hypothesis score in this directional snapshot.</p>
             </div>
           </article>
           <article className="small-callout acid">
@@ -190,11 +203,11 @@ function Findings() {
 
       <section className="explorer section-wrap">
         <div className="section-title inline">
-          <div><span>02 / EVIDENCE</span><h2>Question explorer</h2></div>
+          <div><span>02 / EVIDENCE</span><h2>Signal explorer</h2></div>
           <p>Filter the checked-in dataset. Every record links back to its public source.</p>
         </div>
         <div className="filter-bar">
-          <label className="search-box"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search questions" /></label>
+          <label className="search-box"><span>⌕</span><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search signals" /></label>
           <label>Intent<select value={intent} onChange={(event) => setIntent(event.target.value)}><option>All</option>{intentOrder.map((name) => <option key={name}>{name}</option>)}</select></label>
           <label>Source<select value={source} onChange={(event) => setSource(event.target.value)}><option>All</option>{dataset.summary.bySource.map((item) => <option key={item.name}>{item.name}</option>)}</select></label>
           <a className="download" href="/questions.json" download>↓ Dataset JSON</a>
@@ -208,11 +221,11 @@ function Findings() {
                 <h3>{question.title}</h3>
                 <p>{question.excerpt}</p>
               </div>
-              <div className="q-score"><span>SCORE</span><strong>{question.scores.opportunity}</strong></div>
+              <div className="q-score"><span>PRIORITY</span><strong>{question.scores.opportunity}</strong></div>
               <span className="arrow">↗</span>
             </a>
           ))}
-          {!questions.length && <div className="empty">No questions match those filters.</div>}
+          {!questions.length && <div className="empty">No signals match those filters.</div>}
         </div>
       </section>
     </>
@@ -224,14 +237,14 @@ function Opportunities({ openSample }: { openSample: () => void }) {
     <section className="panel opportunities-panel">
       <div className="panel-intro">
         <div><span>CONTENT PRIORITY / 8 RECOMMENDATIONS</span><h1>Publish where<br />friction is visible.</h1></div>
-        <p>Cluster scores combine relevance, technical depth, freshness and likely business value. The top-ranked idea is developed into a complete sample.</p>
+        <p>Hypothesis scores combine relevance, technical depth, freshness and likely business value. They prioritize experiments; they do not estimate search volume.</p>
       </div>
       <div className="opportunity-list">
         {opportunities.map((item, index) => (
           <article className={`opportunity ${index === 0 ? "featured" : ""}`} key={item.name}>
             <span className="rank">{String(index + 1).padStart(2, "0")}</span>
             <div className="opportunity-copy">
-              <div className="opportunity-tags"><span>{item.format}</span><span>{item.count} questions</span></div>
+              <div className="opportunity-tags"><span>{item.format}</span><span>{item.count} signals</span></div>
               <h2>{item.title}</h2>
               <p>{item.angle}</p>
               <div className="score-breakdown">
@@ -239,7 +252,7 @@ function Opportunities({ openSample }: { openSample: () => void }) {
               </div>
               {index === 0 && <button onClick={openSample}>Read the sample article →</button>}
             </div>
-            <div className="score"><span>OPPORTUNITY<br />SCORE</span><strong>{item.opportunity}</strong></div>
+            <div className="score"><span>HYPOTHESIS<br />SCORE</span><strong>{item.opportunity}</strong></div>
           </article>
         ))}
       </div>
@@ -255,9 +268,10 @@ function SampleArticle() {
   return (
     <article className="article panel">
       <header className="article-hero">
-        <div className="article-meta"><span>TECHNICAL TUTORIAL</span><span>12 MIN READ</span><span>OPPORTUNITY SCORE {opportunities[0]?.opportunity}</span></div>
+        <div className="article-meta"><span>TECHNICAL SAMPLE</span><span>12 MIN READ</span><span>HYPOTHESIS SCORE {opportunities[0]?.opportunity}</span></div>
         <h1>Expose a private Kubernetes service to your tailnet—without a public load balancer</h1>
         <p>A practical Tailscale Kubernetes Operator tutorial for giving engineers private, identity-aware access to an internal HTTP service.</p>
+        <div className="validation-status"><strong>Validation status</strong><span>Documentation-validated technical sample. The commands have not been executed against a live Kubernetes cluster.</span></div>
       </header>
 
       <div className="article-body">
@@ -380,8 +394,23 @@ function Methodology() {
       <div className="method-grid">
         <article><span>01</span><h2>Collect</h2><p>A rolling 90-day window from Hacker News, Reddit and Stack Overflow, plus a point-in-time search-suggestion snapshot.</p></article>
         <article><span>02</span><h2>Classify</h2><p>Deterministic rules assign Discover, Compare, Evaluate, Troubleshoot or Adopt intent and one topic cluster.</p></article>
-        <article><span>03</span><h2>Score</h2><p>Relevance 35% · technical depth 20% · freshness 20% · likely business value 25%, with a bounded cluster-volume bonus.</p></article>
+        <article><span>03</span><h2>Score</h2><p>An initial weighting hypothesis: relevance 35% · business value 25% · technical depth 20% · freshness 20%, plus a bounded volume bonus.</p></article>
         <article><span>04</span><h2>Recommend</h2><p>Ideas must answer a recurring question with an angle and format that are more useful than a generic category explainer.</p></article>
+      </div>
+
+      <div className="score-hypothesis">
+        <div><span>WHY THESE WEIGHTS</span><h2>A starting hypothesis,<br />not a fitted model</h2></div>
+        <p><strong>Relevance receives 35%</strong> because direct audience and product fit is the first gate. <strong>Business value receives 25%</strong> to favor signals closer to adoption, production use and team rollout. <strong>Technical depth and freshness receive 20% each</strong> because specificity and timing improve usefulness, but neither alone demonstrates demand. These author-defined weights have not been calibrated against traffic or conversion data.</p>
+      </div>
+
+      <div className="internal-access">
+        <div><span>NEXT VALIDATION LAYER</span><h2>What I would do with internal access</h2></div>
+        <div className="internal-grid">
+          <article><strong>Search Console</strong><p>Validate query volume, impressions, click-through rate and ranking gaps by cluster.</p></article>
+          <article><strong>Product analytics</strong><p>Connect content visits to signup, second-node connection and first useful route.</p></article>
+          <article><strong>Attribution</strong><p>Measure assisted upgrades, self-serve revenue and the paths that precede conversion.</p></article>
+          <article><strong>Customer evidence</strong><p>Test the language and priorities in support logs, sales calls and user interviews.</p></article>
+        </div>
       </div>
 
       <div className="measurement">
@@ -398,7 +427,7 @@ function Methodology() {
 
       <div className="limitations">
         <h2>Read the caveats before the score</h2>
-        <p>Public APIs omit private, deleted, personalized and unindexed demand. Reddit may block automated API requests, so this snapshot includes a transparent web-indexed fallback. Search suggestions vary by language and location. Keyword rules are reproducible, not as nuanced as human labeling. Validate priorities with Search Console, product analytics and customer conversations.</p>
+        <p>Public APIs omit private, deleted, personalized and unindexed demand. Reddit may block automated API requests, so this snapshot includes a transparent web-indexed fallback. Search suggestions vary by language and location. Keyword rules are reproducible, not as nuanced as human labeling. High-ranking incidental mentions are removed through a checked-in manual review list. Treat every score as a content hypothesis to validate with first-party evidence.</p>
         <div className="method-actions"><a href="/questions.json" download>Download dataset</a><a href="https://hn.algolia.com/api" target="_blank" rel="noreferrer">HN Search API ↗</a><a href="https://api.stackexchange.com/docs" target="_blank" rel="noreferrer">Stack Exchange API ↗</a></div>
       </div>
     </section>
@@ -409,12 +438,13 @@ export default function Home() {
   const [tab, setTab] = useState<Tab>("findings");
   return (
     <main>
+      <ProjectContext />
       <Header tab={tab} setTab={setTab} />
       {tab === "findings" && <Findings />}
       {tab === "opportunities" && <Opportunities openSample={() => setTab("sample")} />}
       {tab === "sample" && <SampleArticle />}
       {tab === "methodology" && <Methodology />}
-      <footer><span>QUESTION RADAR / TAILSCALE</span><span>{dataset.total} QUESTIONS · 4 PUBLIC SOURCES · REFRESHABLE</span></footer>
+      <footer><span>BUILT BY ANDIE CHOI · INDEPENDENT, UNOFFICIAL PROJECT</span><span>{dataset.total} PUBLIC SIGNALS · 4 SOURCE TYPES · REFRESHABLE</span></footer>
     </main>
   );
 }

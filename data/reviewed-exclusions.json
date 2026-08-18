@@ -1,0 +1,54 @@
+[
+  {
+    "id": "hn-49310875",
+    "reason": "The RustDesk story is unrelated; Tailscale appears only as an incidental tool mention in one comment."
+  },
+  {
+    "id": "hn-49043030",
+    "reason": "The Plex/Jellyfin story is not a Tailscale decision or implementation question."
+  },
+  {
+    "id": "hn-49255072",
+    "reason": "The story concerns AI and web archives; the homelab reference is incidental."
+  },
+  {
+    "id": "hn-49349001",
+    "reason": "The Google Photos discussion contains a passing setup anecdote rather than a recurring Tailscale question."
+  },
+  {
+    "id": "hn-48981708",
+    "reason": "The game-streaming story contains historical product usage but no current Tailscale decision or problem."
+  },
+  {
+    "id": "hn-49049904",
+    "reason": "The Bitchat comment lists Tailscale among possible transports without product-specific intent."
+  },
+  {
+    "id": "hn-49269302",
+    "reason": "The OpenChamber comment is a product endorsement, not a question or decision signal."
+  },
+  {
+    "id": "hn-49333540",
+    "reason": "The Reticulum comment only notes that Tailscale serves a different use case."
+  },
+  {
+    "id": "hn-49280981",
+    "reason": "The SQLite discussion mentions Tailscale as historical bug context, not networking demand."
+  },
+  {
+    "id": "hn-49346141",
+    "reason": "The Amazon Tax comment contains a passing self-hosting anecdote without a decision or implementation question."
+  },
+  {
+    "id": "hn-49279752",
+    "reason": "The DeepSeek comment names Tailscale only as a paid-service example."
+  },
+  {
+    "id": "hn-49223383",
+    "reason": "The IDE comment uses Tailscale only as a generic private-network example."
+  },
+  {
+    "id": "hn-49278270",
+    "reason": "The SQLite article references Tailscale's debugging history rather than a networking need."
+  }
+]
